@@ -1,4 +1,8 @@
-num1 = 25
-num2 = 10
-difference = num1 - num2
-print("The difference is:", difference)
+import math
+
+def exponential(x):
+    return math.exp(x)
+
+x_value = float(input("Enter a value for x: "))
+result = exponential(x_value)
+print(f"e^{x_value} = {result}")
